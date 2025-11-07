@@ -1,6 +1,6 @@
 <template>
     <div class="code-highlighter">
-        <div v-if="loading" class="loading">正在加载加载高亮加载高亮器...</div>
+        <div v-if="loading" class="loading">正在加载中...</div>
         <div v-else-if="error" class="error">
             {{ error }}
         </div>
